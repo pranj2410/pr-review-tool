@@ -1,0 +1,15 @@
+github:
+  token: ${GITHUB_TOKEN:your_github_personal_access_token}
+  webhook-secret: ${GITHUB_WEBHOOK_SECRET:your_webhook_secret}
+
+
+ollama:
+  base-url: http://localhost:11434
+  model: deepseek-coder:6.7b
+
+server:
+  port: 8080
+
+logging:
+  level:
+    com.codebot: INFO
